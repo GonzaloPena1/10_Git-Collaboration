@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  position: sticky;
+  background-color: #3a3a3a;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  padding: 15px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.number-1 {
+  color: rgb(197, 94, 94);
+}
+.number-2 {
+  color: rgb(113, 219, 80);
+}
+.number-3 {
+  color: rgb(105, 116, 195);
+}
+.number-4 {
+  color: rgb(155, 77, 179);
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #3a3a3a;
+  color: white;
+  text-align: center;
+}
